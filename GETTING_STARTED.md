@@ -1,6 +1,8 @@
 # Getting Started with PySlowFast
 
-This document provides a brief intro of launching jobs in PySlowFast for training and testing. Before launching any job, make sure you have properly installed the PySlowFast following the instruction in [README.md](README.md) and you have prepared the dataset following [DATASET.md](slowfast/datasets/DATASET.md) with the correct format.
+This document provides a brief intro of launching jobs in PySlowFast for WebCam task. Before launching any job, make sure you have properly installed the PySlowFast following the instruction in [README.md](README.md) and you have prepared the dataset following [DATASET.md](slowfast/datasets/DATASET.md) with the correct format.
+## Setting project argument 
+Create a checkpoint dir,and Put AVA model and Detection2 model,and you can follwing the parament file in [.demo/AVA/SLOWFAST_32x2_R101_50_50.yaml]
 
 ## Train a Standard Model from Scratch
 
